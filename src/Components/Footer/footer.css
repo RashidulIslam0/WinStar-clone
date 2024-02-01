@@ -1,0 +1,71 @@
+.footer-bottom {
+  background-color: rgb(93, 51, 213);
+  font-size: 20px;
+  color: white;
+}
+
+.footer-top {
+  background-image: url("/public/images/email-optin-bg.png");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+
+  text-align: center;
+}
+
+.desing {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.desing h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.desing p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: rgb(40, 28, 81);
+}
+
+.desing img {
+  width: 10px;
+  margin-bottom: 10px;
+}
+
+.desing h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.flex-container h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.buttons {
+  margin-top: 20px;
+}
+
+.footer-middle {
+  background-color: rgb(233, 253, 247);
+  /* height: 500px; */
+}
+
+.footer-desing {
+}

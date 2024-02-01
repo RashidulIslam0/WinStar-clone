@@ -1,0 +1,26 @@
+.navbar {
+  padding: 20px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+.imgs {
+  width: 200px;
+}
+.navbar-nav {
+  padding-right: 100px;
+}
+.nav-item {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.button {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white !important;
+  border: 1px solid rgb(15, 229, 168);
+  background-color: rgb(15, 229, 168) !important;
+}
