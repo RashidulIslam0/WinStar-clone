@@ -3,7 +3,7 @@ import "./header.css";
 const Header = () => {
   return (
     <>
-      <nav className="navbar  navbar-expand-lg ">
+      <nav className="navbar  navbar-expand-lg sticky-top ">
         <div className="container-fluid">
           <a className=" img " href="#">
             <img
