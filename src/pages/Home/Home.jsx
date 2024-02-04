@@ -3,7 +3,6 @@ import "./home.css";
 import { skills } from "../../db.json";
 import { hero, teams, teamsimg, work, call, feedback } from "../../db.json";
 import { Link } from "react-router-dom";
-// import { Container, Row, Col, Form, Button } from "react-bootstrap"; // Import Bootstrap components
 
 const Home = () => {
   return (

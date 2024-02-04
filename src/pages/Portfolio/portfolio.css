@@ -1,74 +1,77 @@
-/* Assuming you have Bootstrap included for basic styling */
-
-/* .port-top {
-    text-align: center;
-    margin-bottom: 20px;
-    background-color: azure;
-    margin: 0 auto;
-    height: 100px;
-  }
-  .bordesr{
- 
-    padding:5px ;
-  }
- .port-dis{
-    height: 100vh;
-  
-    background-color: rgb(232,232,232);
- }
- .port-img{
-    height: 500px;
- 
-    display: flex;
-   
-   
-
- } */
-
- /* portfolio.css */
-
 .port-top {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .port-bottom {
-    padding: 0 15px;
-  }
-  
-  .port-dis {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .port-img img {
-    width: 100%;
-    height: auto;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }
-  
-  .heading {
-    font-size: 18px;
-    margin-top: 10px;
-  }
-  
-  .port-dis p {
-    font-size: 14px;
-  }
-  
-  .button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 5px 15px;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Add additional styles as needed */
-  
+  text-align: center !important;
+  background-color: #eff6ff !important;
+  /* height: 200px; */
+  padding: 4%;
+  margin: 0 auto;
+  background-image: url("https://winstarit.com/wp-content/uploads/2020/12/bg-effect-02.png");
+}
+
+.port-top h2{
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.port-bootom{
+  padding: 4%;
+}
+
+.port-dis:hover{
+  background-color: #f0f0f0;
+}
+
+.port-dis {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(232, 232, 232);
+}
+.port-dise h6 {
+  padding-right: 15px;
+  font-size: 18px;
+}
+.port-dise p {
+  /* padding-right: 5px; */
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  background-color: rgb(255, 77, 107);
+  color: white;
+  border-radius: 5px;
+}
+
+.port-img img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.heading {
+  font-size: 18px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.port-dis p {
+  font-size: 14px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Add additional styles as needed */
+
+.port-btn{
+  justify-content: space-between
+}
