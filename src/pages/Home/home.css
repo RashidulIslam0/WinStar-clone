@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  height: 700px;
 }
 
 .top {
@@ -73,4 +74,173 @@
 
 input {
   background-color: rgb(233, 253, 247);
+}
+
+
+
+.skile {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.skile .card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: -120px;
+}
+
+
+
+
+.badge{
+  width: 100px; 
+
+  position: relative;
+  left: 100px;
+  object-fit: cover;
+}
+
+.skile .badge img {
+  max-width: 100%;
+  height: 50px;
+  
+
+}
+
+.skile .heading {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.card-img{
+  height: 210px;
+  width: 500px;
+}
+.team{
+  height: 500px;
+}
+
+.card-img-top{
+  border-radius: 50%;
+ 
+  position: relative;
+  left: 100px;
+  object-fit: cover;
+}
+
+.card-text{
+  font-size: 18px;
+  font-weight: 500;
+}
+.card-title{
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.work{
+  height: 500px;
+  background-color: rgb(233,253,247);
+}
+
+.badges{
+  align-items: center;
+  display: flex;
+}
+.badges img{
+  width: 20px;
+  height: 20px;
+}
+
+.badges {
+  text-align: center; /* Center-align content */
+}
+
+.workss{
+  border-radius: 10px;
+}
+
+.badges img {
+  max-width: 100%;
+  height: auto; /* Ensure image responsiveness */
+}
+
+.badges p {
+  margin-top: 10px; 
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+
+.call{
+  height: 300px;
+  background-image: url('/public/images/email-optin-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.call-title{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 10px;
+
+}
+.call-title img{
+  height: 25px;
+  width: 25px;
+  padding-right: 5px;
+}
+.call-title p{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.feedback{
+
+  /* height: 500px; */
+  background-color: rgb(233,253,247);
+
+}
+.feedback-header{
+  padding-top: 100px;
+}
+.feedback-header h4{
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.feedback-header h2{
+  font-size: 38px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.feedback-header p{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.card-imgs{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.feedback-body h5{
+  color: black;
+  font-weight: 600;
+}
+.feedback-body p{
+  font-size: 16px;
+  padding-top: 10px;
+}
+.feedback-body{
+  height: 430px;
 }
