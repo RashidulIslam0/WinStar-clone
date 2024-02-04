@@ -1,17 +1,18 @@
 import React from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
       <nav className="navbar  navbar-expand-lg sticky-top ">
         <div className="container-fluid">
-          <a className=" img " href="#">
+          <Link className=" img " to="/">
             <img
               className="imgs"
               src="/public/images/Logo-Winstarit--300x85.png"
               alt
             />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -29,19 +30,19 @@ const Header = () => {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/portfolio">
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/contact">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
 
