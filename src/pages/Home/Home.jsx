@@ -78,71 +78,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* <section className="hero">
-        <Container>
-          <Row>
-            {hero.map((heros) => (
-              <Col sm={8} key={heros.id} className="heros">
-                <div className="top d-flex">
-                  <img src={heros.image} alt="" />
-                  <h6>{heros.wlc}</h6>
-                </div>
-                <div>
-                  <h3 className="hero-header">
-                    WinStar Team: Grow your business with <span>Winstarit</span>{" "}
-                    .
-                  </h3>
-                  <p className="hero-para">{heros.dis}</p>
-                </div>
-                <Button variant="primary" className="button">
-                  {heros.button}
-                </Button>
-              </Col>
-            ))}
-
-            <Col sm={4}>
-              <div className="ft">
-                <div className="tops">
-                  <img src="/public/images/1f44b.svg" alt="" />
-                  <p> WinStar Gift: Get your business M-Audit report Free!</p>
-                </div>
-                <div className="form">
-                  <Form>
-                    <Form.Group className="mb-4" controlId="formName">
-                      <Form.Control type="text" placeholder="Name" required />
-                    </Form.Group>
-                    <Form.Group className="mb-4" controlId="formEmail">
-                      <Form.Control
-                        type="email"
-                        placeholder="Email Address"
-                        required
-                      />
-                    </Form.Group>
-                    <Form.Group className="mb-4" controlId="formPhone">
-                      <Form.Control
-                        type="text"
-                        placeholder="Phone Number"
-                        required
-                      />
-                    </Form.Group>
-                    <Form.Group className="mb-4" controlId="formWebsite">
-                      <Form.Control
-                        type="text"
-                        placeholder="Website Url"
-                        required
-                      />
-                    </Form.Group>
-                    <Button variant="primary" className="button" type="submit">
-                      Find Out
-                    </Button>
-                  </Form>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section> */}
-
       <section className="skile">
         <div className="container mt-5 mb-3">
           <div className="row">
@@ -174,7 +109,6 @@ const Home = () => {
             </p>
           </div>
           <div className="row">
-            {/* Display team members */}
             {teams.map((team) => (
               <div className="col-md-3 trim text-center" key={team.id}>
                 <div className="card mb-4 shadow-sm">

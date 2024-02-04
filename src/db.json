@@ -3,7 +3,7 @@
         
             {   
                 "id":1,
-                "image":"/images/1f44b.svg",
+                "image":"https://s.w.org/images/core/emoji/14.0.0/svg/1f44b.svg",
                 "wlc":"Welcome to Winstarit",
                 "herohead":"WinStar Team: Grow your business with Winstarit .",
                 "dis":"You’re here because you want to grow your business. You want more customers, more sales, and more success. But you don’t know how to get there. You’ve tried all the traditional marketing techniques, but they’re not working like they used to. You need something new, something that will reach your target audience and persuade them to buy from you. That’s where we come in.",
@@ -16,25 +16,25 @@
     "skills":[
         {   
             "id":1,
-            "image":"/images/seo-2.png",
+            "image":"https://winstarit.com/wp-content/uploads/2022/06/seo-2.png",
             "dis":"Search Engine Optimization"
 
         },
         {
             "id":2,
-            "image":"public/images/checklist.png",
+            "image":"https://winstarit.com/wp-content/uploads/2022/06/check-list.png",
             "dis":"Content Writing"
 
         },
         {
             "id":3,
-            "image":"public/images/web-programming.png",
+            "image":"https://winstarit.com/wp-content/uploads/2022/06/web-programming.png",
             "dis":"Web Development"
 
         },
         {
             "id":4,
-            "image":"public/images/ui-design.png",
+            "image":"https://winstarit.com/wp-content/uploads/2022/06/ui-design.png",
             "dis":"UI/UX Design"
 
         }
@@ -43,14 +43,14 @@
     "teams":[
         {   
             "id":1,
-            "image":"/images/design-thinking.png",
+            "image":"https://winstarit.com/wp-content/uploads/2022/06/design-thinking.png",
             "header":"20+ Skills Available",
             "dis":"There are 20 skills available to you, each one full of potential and promise. With each one you can achieve something great, if you only"
 
         },
         {   
             "id":2,
-            "image":"/images/padlock.png",
+            "image":"https://winstarit.com/wp-content/uploads/2022/06/padlock.png",
             "header":"Zero Risk!",
             "dis":"We are so confident in our Service that we offer a ZERO RISK guarantee! If you decide t ostop within one weeks, you pay nothing"
 
@@ -59,7 +59,7 @@
     "teamsimg":[
         {   
             "id":1,
-            "image":"/images/Skills-image.png"
+            "image":"https://winstarit.com/wp-content/uploads/2022/06/Skills-image.png"
             
 
         }
@@ -68,23 +68,23 @@
     "work":[
         {   
             "id":1,
-            "image":"/images/on-time.png",
+            "image":"https://winstarit.com/wp-content/uploads/2022/06/on-time.png",
             "workdis":"Dedicated account manager"
         },
         {   
             "id":2,
-            "image":"/images/indentation.png",
+            "image":"https://winstarit.com/wp-content/uploads/2022/06/indentation.png",
             "workdis":"World-class high skilled team"
         },
         
         {   
             "id":3,
-            "image":"/images/checklist.png",
+            "image":"https://winstarit.com/wp-content/uploads/2022/06/checklist.png",
             "workdis":"User-friendly reports and updates"
         },
         {   
             "id":4,
-            "image":"/images/guarantee.png",
+            "image":"https://winstarit.com/wp-content/uploads/2022/06/guarantee.png",
             "workdis":"Guaranteed growth of businesses"
         }
         
@@ -101,26 +101,26 @@
     "feedback":[
         {
             "id":1,
-            "image":"/images/Frank-Reyniers.png",
+            "image":"https://winstarit.com/wp-content/uploads/2020/12/Frank-Reyniers.png",
             "name":"Frank Reyniers",
             "skill":"CEO at My-Glow",
-            "rating ":"/images/feedback.png",
+            "rating ":"https://winstarit.com/wp-content/uploads/2020/12/feedback.png",
             "comment":"Great job! Very good communication. If you ever need a DIVI theme specialist stop searching."
         },
         {
             "id":2,
-            "image":"/images/jaycman.png",
+            "image":"https://winstarit.com/wp-content/uploads/2020/12/jaycman.png",
             "name":"Jayc Man",
             "skill":"Developer at MyMedicare",
-            "rating ":"/images/feedback.png",
+            "rating ":"https://winstarit.com/wp-content/uploads/2020/12/feedback.png",
             "comment":"Excellent communication, delivered fast before scheduled completion. He had to do extra work and was super helpful. Highly recommend this guy!"
         },
         {
             "id":3,
-            "image":"/images/gemmamantala.png",
+            "image":"https://winstarit.com/wp-content/uploads/2020/12/gemmamantala.png",
             "name":"Gemma Mantala",
             "skill":"Web Developer ",
-            "rating ":"/images/feedback.png",
+            "rating ":"https://winstarit.com/wp-content/uploads/2020/12/feedback.png",
             "comment":"WinStarIT went above and beyond to achieve the work set out. A+++"
         }
     ]

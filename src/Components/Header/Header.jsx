@@ -7,11 +7,7 @@ const Header = () => {
       <nav className="navbar  navbar-expand-lg sticky-top ">
         <div className="container-fluid">
           <Link className=" img " to="/">
-            <img
-              className="imgs"
-              src="/public/images/Logo-Winstarit--300x85.png"
-              alt
-            />
+            <img className="imgs" src="./images/Logo-Winstarit-.png" alt />
           </Link>
           <button
             className="navbar-toggler"

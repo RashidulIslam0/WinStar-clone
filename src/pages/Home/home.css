@@ -4,7 +4,7 @@
 
 .hero {
   padding: 100px;
-  background-image: url("/public/images/homebg.png"),
+  background-image: url("/images/homebg.png"),
     linear-gradient(rgb(233, 253, 247), rgb(233, 253, 247));
   background-repeat: no-repeat;
   background-size: cover;
@@ -183,7 +183,7 @@ input {
 
 .call{
   height: 300px;
-  background-image: url('/public/images/email-optin-bg.png');
+  background-image: url('/images/email-optin-bg.png');
   background-size: cover;
   background-position: center;
   padding: 20px;
