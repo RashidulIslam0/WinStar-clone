@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./pages/about/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Contact from "./pages/Contact/Contact";
+import Book from "./pages/Book/Book";
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
+          <Route
+            path="/book"
+            element={<Book scriptSrc="https://embed.ycb.me" />}
+          />
         </Routes>
         <Footer />
       </Router>
