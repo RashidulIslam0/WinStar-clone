@@ -1,3 +1,7 @@
+
+
+
+
 .hero {
   padding: 100px;
   background-image: url("/public/images/homebg.png"),
@@ -7,6 +11,7 @@
   background-position: left;
   height: 700px;
 }
+
 
 .top {
   display: flex;
