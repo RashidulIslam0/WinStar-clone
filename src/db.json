@@ -123,6 +123,89 @@
             "rating ":"https://winstarit.com/wp-content/uploads/2020/12/feedback.png",
             "comment":"WinStarIT went above and beyond to achieve the work set out. A+++"
         }
+    ],
+    "Portfolios":[
+        {   
+            "id":1,
+            "img":"https://winstarit.com/wp-content/uploads/2022/01/Portfolio-01.png",
+
+            "imghead":"Athena Kavis",
+           "project":" Business Project",
+           "cat":"New",
+           "butt":"Live Preview"
+        },
+        {   
+            "id":2,
+            "img":"https://winstarit.com/wp-content/uploads/2022/01/portfolio-2.jpg",
+
+            "imghead":"health Engine",
+           "project":" Business Project",
+           "cat":"New",
+           "butt":"Live Preview"
+        },
+        {   
+            "id":3,
+            "img":"https://winstarit.com/wp-content/uploads/2022/01/portfolio-3.jpg",
+
+            "imghead":"Just a Credit",
+           "project":" Business Project",
+           "cat":"New",
+           "butt":"Live Preview"
+        },
+        {   
+            "id":1,
+            "img":"https://winstarit.com/wp-content/uploads/2022/01/portfolio-4.jpg",
+
+            "imghead":"Athena Kavis",
+           "project":"Personal Project",
+           "cat":"New",
+           "butt":"Live Preview"
+        },
+        {   
+            "id":1,
+            "img":"https://winstarit.com/wp-content/uploads/2022/01/Portfolio-05.png",
+
+            "imghead":"Athena Kavis",
+           "project":"Personal Project",
+           "cat":"New",
+           "butt":"Live Preview"
+        },
+        {   
+            "id":1,
+            "img":"https://winstarit.com/wp-content/uploads/2022/01/Portfolio-06.png",
+
+            "imghead":"Athena Kavis",
+           "project":"Personal Project",
+           "cat":"New",
+           "butt":"Live Preview"
+        },
+        {   
+            "id":1,
+            "img":"https://winstarit.com/wp-content/uploads/2022/01/Portfolio-07.png",
+
+            "imghead":"Athena Kavis",
+           "project":"Personal Project",
+           "cat":"New",
+           "butt":"Live Preview"
+        },
+        {   
+            "id":1,
+            "img":"https://winstarit.com/wp-content/uploads/2022/01/Portfolio-08.png",
+
+            "imghead":"Athena Kavis",
+           "project":"Personal Project",
+           "cat":"New",
+           "butt":"Live Preview"
+        },
+        {   
+            "id":1,
+            "img":"https://winstarit.com/wp-content/uploads/2022/01/Portfolio-09.png",
+
+            "imghead":"NTY",
+           "project":"Personal Project",
+           "cat":"New",
+           "butt":"Live Preview"
+        }
     ]
 
 }
