@@ -7,73 +7,76 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <section className="hero">
-        <div className="row ">
-          {hero.map((heros) => (
-            <div className="col-8 heros">
-              <div className="top d-flex ">
-                <img src={heros.image} alt="" />
-                <h6>{heros.wlc}</h6>
-              </div>
-              <div className="">
-                <h3 className="hero-header">
-                  WinStar Team: Grow your business with <span>Winstarit</span> .
-                </h3>
-                <p className="hero-para">{heros.dis}</p>
-              </div>
+      <section className="hero ">
+        <div className="container">
+          <div className="row">
+            {hero.map((heros) => (
+              <div className="col-lg-8 col-md-8 col-sm-12  mb-4">
+                <div className="top d-flex ">
+                  <img src={heros.image} alt="" />
+                  <h6>{heros.wlc}</h6>
+                </div>
+                <div className="">
+                  <h3 className="hero-header">
+                    WinStar Team: Grow your business with <span>Winstarit</span>{" "}
+                    .
+                  </h3>
+                  <p className="hero-para">{heros.dis}</p>
+                </div>
 
-              <Link to="/book" className="btn button ">
-                {heros.button}
-              </Link>
-            </div>
-          ))}
-
-          <div className="col-4">
-            <div className="ft">
-              <div className="tops">
-                <img src="/public/images/1f44b.svg" alt="" />
-                <p> WinStar Gift: Get your business M-Audit report Free!</p>
+                <Link to="/book" className="btn button ">
+                  {heros.button}
+                </Link>
               </div>
-              <div className="form">
-                <form>
-                  <div data-mdb-input-init className="form-outline mb-4">
-                    <input
-                      type="text"
-                      id="form4Example1"
-                      className="form-control"
-                      placeholder="Name"
-                      required
-                    />
-                  </div>
-                  <div data-mdb-input-init className="form-outline mb-4">
-                    <input
-                      type="email"
-                      id="form4Example2"
-                      className="form-control"
-                      placeholder="Email Address"
-                      required
-                    />
-                  </div>
-                  <div data-mdb-input-init className="form-outline mb-4">
-                    <input
-                      type="text"
-                      id="form4Example2"
-                      className="form-control"
-                      placeholder="Phone Number"
-                      required
-                    />
-                  </div>
-                  <div data-mdb-input-init className="form-outline mb-4">
-                    <input
-                      type="text"
-                      id="form4Example2"
-                      className="form-control"
-                      placeholder="Website Url"
-                      required
-                    />
-                  </div>
-                </form>
-                <button className="btn button ">Find Out</button>
+            ))}
+
+            <div className="col-lg-4 col-md-4 col-sm-12">
+              <div className="ft">
+                <div className="tops">
+                  <img src="/public/images/1f44b.svg" alt="" />
+                  <p> WinStar Gift: Get your business M-Audit report Free!</p>
+                </div>
+                <div className="form">
+                  <form>
+                    <div data-mdb-input-init className="form-outline mb-4">
+                      <input
+                        type="text"
+                        id="form4Example1"
+                        className="form-control"
+                        placeholder="Name"
+                        required
+                      />
+                    </div>
+                    <div data-mdb-input-init className="form-outline mb-4">
+                      <input
+                        type="email"
+                        id="form4Example2"
+                        className="form-control"
+                        placeholder="Email Address"
+                        required
+                      />
+                    </div>
+                    <div data-mdb-input-init className="form-outline mb-4">
+                      <input
+                        type="text"
+                        id="form4Example2"
+                        className="form-control"
+                        placeholder="Phone Number"
+                        required
+                      />
+                    </div>
+                    <div data-mdb-input-init className="form-outline mb-4">
+                      <input
+                        type="text"
+                        id="form4Example2"
+                        className="form-control"
+                        placeholder="Website Url"
+                        required
+                      />
+                    </div>
+                  </form>
+                  <button className="btn button ">Find Out</button>
+                </div>
               </div>
             </div>
           </div>
@@ -82,9 +85,9 @@ const Home = () => {
 
       <section className="skile">
         <div className="container mt-5 mb-3">
-          <div className="row">
+          <div className="row row-cols-1 row-cols-md-4">
             {skills.map((skill) => (
-              <div className="col-md-3" key={skill.id}>
+              <div className="col mb-4" key={skill.id}>
                 <div className="card p-3 mb-2">
                   <div className="d-flex justify-content-between">
                     <div className="badge">
@@ -110,9 +113,9 @@ const Home = () => {
               possible.
             </p>
           </div>
-          <div className="row">
+          <div className="row row-cols-1 row-cols-md-4">
             {teams.map((team) => (
-              <div className="col-md-3 trim text-center" key={team.id}>
+              <div className="col trim text-center" key={team.id}>
                 <div className="card mb-4 shadow-sm">
                   <img
                     src={team.image}
@@ -126,7 +129,6 @@ const Home = () => {
                 </div>
               </div>
             ))}
-            {/* Display developer skills */}
             <div className="col-md-6">
               {teamsimg.map((team) => (
                 <div className="col-md-10" key={team.id}>
@@ -149,26 +151,34 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="work ">
-        <div className="row container-fluid    mt-5 pt-5">
-          <div className="col-6"></div>
-          <div className="col-6">
-            <div className="top d-flex ">
-              <img src="/public/images/1f44b.svg" alt="" />
-              <h6 className="work-head ">Why work with us? </h6>
+      <section className="work">
+        <div className="container-fluid mt-5 pt-5">
+          <div className="row">
+            <div className="col-md-6">
+              <img
+                src="https://i.vimeocdn.com/video/1459909987-29cf72457bd40c1735e9d7b64c6ff45b094c88a637461170ca59b0a076e05406-d?mw=600&mh=338"
+                alt=""
+                className="img-fluid"
+              />
             </div>
-            {work.map((skill) => (
-              <div className="col-md-9  " key={skill.id}>
-                <div className="card workss ps-3 p-1 mb-3 ">
-                  <div className="d-flex justify-content-between">
-                    <div className="badges">
-                      <img src={skill.image} alt="" />
-                      <p>{skill.workdis}</p>
+            <div className="col-md-6 work-right">
+              <div className="top d-flex ">
+                <img src="/public/images/1f44b.svg" alt="" />
+                <h6 className="work-head">Why work with us?</h6>
+              </div>
+              {work.map((skill) => (
+                <div className="col-md-12 mb-3" key={skill.id}>
+                  <div className="card workss ps-3 p-1 mb-3">
+                    <div className="d-flex ">
+                      <div className="badges">
+                        <img src={skill.image} alt="" />
+                        <p>{skill.workdis}</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -176,15 +186,22 @@ const Home = () => {
       <section className="call">
         <div className="call-name">
           {call.map((skill) => (
-            <div className=" " key={skill.id}>
-              <div className="">
-                <div className="d-flex justify-content-between">
-                  <div className="call-title d-flex">
-                    <img src={skill.image} alt="" />
-                    <p>{skill.callname}</p>
+            <div className="" key={skill.id}>
+              <div
+                className="col-lg-12 col-md-12 col-sm-12 mb-4 "
+                key={skill.id}
+              >
+                <div className="call-name ">
+                  <div className="">
+                    <div className="d-flex justify-content-between">
+                      <div className="call-title d-flex text-center m-0 m-auto justify-content-center">
+                        <img src={skill.image} alt="" className="mr-2" />
+                        <p>{skill.callname}</p>
+                      </div>
+                    </div>
+                    <div className="btn button mt-3">{skill.button}</div>
                   </div>
                 </div>
-                <div className="btn button">{skill.button}</div>
               </div>
             </div>
           ))}
@@ -202,33 +219,30 @@ const Home = () => {
               </div>
             </div>
           </div>
-
-          <div className="row">
-            <div className="col-md-12 d-flex">
-              {feedback.map((feedbacks) => (
-                <div className="col-md-4  mb-4" key={feedbacks.id}>
-                  <div className="card  m-3 mb-4 shadow-sm">
-                    <div className="card-body feedback-body">
-                      <div className="text-center p-4">
-                        <img
-                          src={feedbacks.image}
-                          className="card-imgs img-fluid"
-                          alt={feedbacks.header}
-                        />
-                        <h3>{feedbacks.name}</h3>
-                        <h5>{feedbacks.skill}</h5>
-                        <img
-                          src={feedbacks["rating "]}
-                          alt={feedbacks.header}
-                          className="rating-img pb-2"
-                        />
-                        <p>{feedbacks.comment}</p>
-                      </div>
+          <div className="row row-cols-1 row-cols-md-3">
+            {feedback.map((feedbacks) => (
+              <div className="col mb-4" key={feedbacks.id}>
+                <div className="card  m-3 mb-4 shadow-sm">
+                  <div className="card-body feedback-body">
+                    <div className="text-center p-4">
+                      <img
+                        src={feedbacks.image}
+                        className="card-imgs img-fluid"
+                        alt={feedbacks.header}
+                      />
+                      <h3>{feedbacks.name}</h3>
+                      <h5>{feedbacks.skill}</h5>
+                      <img
+                        src={feedbacks["rating "]}
+                        alt={feedbacks.header}
+                        className="rating-img pb-2"
+                      />
+                      <p>{feedbacks.comment}</p>
                     </div>
                   </div>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
