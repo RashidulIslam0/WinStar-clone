@@ -84,29 +84,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* <section className="skile">
-        <div className="container mt-5 mb-3">
-          <div className="row row-cols-1 row-cols-md-4">
-            {skills.map((skill) => (
-              <div className="col mb-4" key={skill.id}>
-                <Link href={skill.link ? skill.link : "#"}>
-                  <div className="card p-3 mb-2">
-                    <div className="d-flex justify-content-between">
-                      <div className="badge">
-                        <img src={skill.image} alt="" />
-                      </div>
-                    </div>
-                    <div className="mt-5">
-                      <h3 className="heading">{skill.dis}</h3>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
-
       <section className="skile">
         <div className="container mt-5 mb-3">
           <div className="row row-cols-1 row-cols-md-4">

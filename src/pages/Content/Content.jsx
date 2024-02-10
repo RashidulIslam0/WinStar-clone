@@ -1,11 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./content.css";
-import ContentCard from "../../Components/Card/Content_card";
 import Card from "../../Components/Card/Card";
-import Price from "../../Components/price/Price";
 import ContPrice from "../../Components/price/Cont-price";
-import Work from "../../Components/work/work";
 const Content = (props) => {
   return (
     <>
