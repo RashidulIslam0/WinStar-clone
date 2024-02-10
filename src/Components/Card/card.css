@@ -1,0 +1,25 @@
+.card-all {
+  color: #0a0303 !important;
+  background-size: contain;
+  background-image: url(https://winstarit.com/wp-content/uploads/2020/12/background-effect-font.png);
+  border-radius: 5px 5px 5px 5px;
+  overflow: hidden;
+  border-width: 1px;
+  border-color: #7a8aa0;
+  padding-top: 20px !important;
+  padding-right: 20px !important;
+  padding-bottom: 20px !important;
+  padding-left: 20px !important;
+  box-shadow: 16px 12px 33px -23px rgba(0, 0, 0, 0.16);
+}
+.card-title {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}

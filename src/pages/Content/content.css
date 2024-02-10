@@ -1,0 +1,62 @@
+.cont-header {
+  font-size: 38px;
+  padding-top: 50px;
+  font-weight: 800;
+  line-height: 2ch;
+}
+
+.cont-paras {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 3ch;
+  padding-bottom: 30px;
+}
+.content-conv {
+  padding: 40px 0;
+}
+
+/* Style for the heading */
+.con-conv-head h2 {
+  font-size: 38px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style for the span within the heading */
+.con-conv-head h2 span {
+  color: rgb(15, 229, 168);
+}
+
+/* Style for the paragraphs */
+.con-conv-head p {
+  font-size: 18px;
+  line-height: 1.5;
+
+  margin-bottom: 20px;
+}
+
+/* Style for the image */
+.con-conv-img {
+  max-width: 100%;
+  height: 300px;
+}
+
+/* Responsive style for the image container */
+@media (max-width: 767px) {
+  .col-md-4 {
+    text-align: center;
+  }
+}
+
+.content-look {
+  padding-top: 50px;
+  background-color: rgb(233, 253, 247);
+}
+
+.workss {
+  background-color: rgb(233, 253, 247);
+
+  margin-top: 120px;
+  padding: 20px;
+}

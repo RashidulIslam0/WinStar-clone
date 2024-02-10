@@ -17,13 +17,16 @@
         {   
             "id":1,
             "image":"https://winstarit.com/wp-content/uploads/2022/06/seo-2.png",
-            "dis":"Search Engine Optimization"
+            "dis":"Search Engine Optimization",
+            "link":"/google-seo-ranking"
+            
 
         },
         {
             "id":2,
             "image":"https://winstarit.com/wp-content/uploads/2022/06/check-list.png",
-            "dis":"Content Writing"
+            "dis":"Content Writing",
+            "link":"/content-writing"
 
         },
         {

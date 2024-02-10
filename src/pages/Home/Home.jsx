@@ -3,6 +3,7 @@ import "./home.css";
 import { skills } from "../../db.json";
 import { hero, teams, teamsimg, work, call, feedback } from "../../db.json";
 import { Link } from "react-router-dom";
+import Service from "../../Components/Carouselsss/Carousels";
 
 const Home = () => {
   return (
@@ -83,26 +84,54 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="skile">
+      {/* <section className="skile">
         <div className="container mt-5 mb-3">
           <div className="row row-cols-1 row-cols-md-4">
             {skills.map((skill) => (
               <div className="col mb-4" key={skill.id}>
-                <div className="card p-3 mb-2">
-                  <div className="d-flex justify-content-between">
-                    <div className="badge">
-                      <img src={skill.image} alt="" />
+                <Link href={skill.link ? skill.link : "#"}>
+                  <div className="card p-3 mb-2">
+                    <div className="d-flex justify-content-between">
+                      <div className="badge">
+                        <img src={skill.image} alt="" />
+                      </div>
+                    </div>
+                    <div className="mt-5">
+                      <h3 className="heading">{skill.dis}</h3>
                     </div>
                   </div>
-                  <div className="mt-5">
-                    <h3 className="heading">{skill.dis}</h3>
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section> */}
+
+      <section className="skile">
+        <div className="container mt-5 mb-3">
+          <div className="row row-cols-1 row-cols-md-4">
+            {skills.map((skill) => (
+              <div className="col link  mb-4" key={skill.id}>
+                <Link to={skill.link ? skill.link : "#"}>
+                  {/* Check if a link is provided */}
+                  <div className="card p-3 mb-2">
+                    <div className="d-flex justify-content-between">
+                      <div className="badge">
+                        <img src={skill.image} alt="" />
+                      </div>
+                    </div>
+                    <div className="mt-5">
+                      <h3 className="heading">{skill.dis}</h3>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
             ))}
           </div>
         </div>
       </section>
+
+      <Service />
 
       <section className="team">
         <div className="container mt-5">

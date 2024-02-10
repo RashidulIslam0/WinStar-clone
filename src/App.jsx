@@ -8,6 +8,9 @@ import About from "./pages/about/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Contact from "./pages/Contact/Contact";
 import Book from "./pages/Book/Book";
+import MyComponent from "./pages/Book/Book";
+import Seo from "./pages/SEO/Seo";
+import Content from "./pages/Content/Content";
 
 function App() {
   return (
@@ -19,10 +22,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
-          <Route
-            path="/book"
-            element={<Book scriptSrc="https://embed.ycb.me" />}
-          />
+          <Route path="/google-seo-ranking" element={<Seo />} />
+
+          <Route path="/content-writing" element={<Content />} />
         </Routes>
         <Footer />
       </Router>
