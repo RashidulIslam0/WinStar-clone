@@ -8,9 +8,10 @@ import About from "./pages/about/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Contact from "./pages/Contact/Contact";
 import Book from "./pages/Book/Book";
-import MyComponent from "./pages/Book/Book";
 import Seo from "./pages/SEO/Seo";
 import Content from "./pages/Content/Content";
+import Development from "./pages/development/Development";
+import ChatWidget from "./pages/Chats";
 
 function App() {
   return (
@@ -23,8 +24,11 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/google-seo-ranking" element={<Seo />} />
+          <Route path="/book" element={<Book />} />
 
           <Route path="/content-writing" element={<Content />} />
+          <Route path="/web-design-developmen" element={<Development />} />
+          <Route path="/chats" element={<ChatWidget />} />
         </Routes>
         <Footer />
       </Router>

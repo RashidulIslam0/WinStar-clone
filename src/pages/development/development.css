@@ -1,0 +1,189 @@
+.dev-top {
+  background-color: #f0f4f8; /* Light blue background color */
+  background-image: url("https://winstarit.com/wp-content/uploads/2020/12/bg.png"); /* Background image */
+  background-position: center center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-size: cover; /* Cover the entire background */
+  height: 600px; /* Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  padding: 50px;
+}
+
+/* Styles for dev-top section */
+
+/* Styles for container */
+.container {
+  max-width: 1200px; /* Maximum width of the container */
+  /* margin: 0 auto; */
+}
+
+/* Styles for dev-top-left column */
+.dev-top-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.dev-top-left h1 {
+  font-size: 46px; /* Adjust as needed */
+  margin-bottom: 25px; /* Adjust as needed */
+  color: rgb(40, 28, 81); /* Text color */
+  font-weight: 700;
+}
+
+.dev-top-left p {
+  font-size: 16px; /* Adjust as needed */
+  line-height: 1.6; /* Adjust as needed */
+  color: rgb(40, 28, 81); /* Text color */
+  margin-top: 20px;
+}
+.dev-top-right {
+  /* padding: 26px; */
+  /* margin-left: 25px; */
+}
+
+/* Styles for image */
+.dev-top img {
+  max-width: 100%;
+  height: auto;
+  padding-left: 20px;
+}
+
+/* Default button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive button styles */
+@media screen and (max-width: 768px) {
+  /* Adjust margin for smaller screens */
+  .mt-5 {
+    margin-top: 20px;
+  }
+
+  /* Adjust button spacing and margin for smaller screens */
+  .mt-5 .button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.dev-send {
+  background-image: url("https://winstarit.com/wp-content/uploads/2020/12/bg.png"); /* Background image */
+  background-position: center center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-size: cover; /* Cover the entire background */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  /* padding: 50px; */
+}
+
+/* Styles for the dev-send section */
+.dev-send {
+  padding: 50px; /* Add padding as needed */
+  background-color: #f9f9f9; /* Background color */
+}
+
+/* Styles for the container */
+.dev-send .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Styles for the dev-send-left column */
+.dev-send-left {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* Styles for the dev-send-left image */
+.dev-send-left img {
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Styles for the dev-send-right column */
+.dev-send-right {
+  padding: 0 30px; /* Add padding as needed */
+}
+
+/* Styles for paragraphs */
+.dev-send-right p {
+  font-size: 19px; /* Adjust font size as needed */
+  line-height: 1.6; /* Adjust line height as needed */
+  margin-bottom: 28px; /* Add margin between paragraphs */
+  color: rgb(40, 28, 81); /* Text color */
+}
+
+.dev-process {
+  padding: 50px 0;
+  background-color: rgb(241, 242, 244);
+}
+
+.pro-top {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.pro-top h5 {
+  font-size: 24px;
+  color: red;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.pro-top h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.pro-bot {
+  margin-top: 30px;
+}
+
+.pro-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  width: 390px;
+}
+
+.pro-card h3 {
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  /* line-height: 1.5em; */
+}
+.pro-card img {
+  max-width: 100%;
+  height: auto;
+}
+.pro-card p {
+  font-size: 18px;
+  color: #0a0303c5 !important;
+  font-weight: 600;
+}
+
+.dev-Work {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

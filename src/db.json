@@ -32,7 +32,8 @@
         {
             "id":3,
             "image":"https://winstarit.com/wp-content/uploads/2022/06/web-programming.png",
-            "dis":"Web Development"
+            "dis":"Web Development",
+            "link":"/web-design-developmen"
 
         },
         {

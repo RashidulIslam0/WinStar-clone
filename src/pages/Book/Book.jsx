@@ -1,39 +1,20 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-
-const MyComponent = () => {
-  const [bookings, setBookings] = useState([]);
-
-  useEffect(() => {
-    const fetchBookings = async () => {
-      try {
-        const response = await axios.get(
-          "https://user-api.simplybook.me/login",
-          {
-            headers: {
-              Authorization: "Bearer YOUR_API_KEY_HERE",
-            },
-          }
-        );
-        setBookings(response.data);
-      } catch (error) {
-        console.error("Error fetching bookings:", error);
-      }
-    };
-
-    fetchBookings();
-  }, []);
-
+import React from "react";
+import "./book.css";
+const Book = () => {
   return (
-    <div>
-      <h1>My Bookings</h1>
-      <ul>
-        {bookings.map((booking) => (
-          <li key={booking.id}>{booking.title}</li>
-        ))}
-      </ul>
-    </div>
+    <>
+      <div className="books pb-5">
+        <iframe
+          className="book"
+          title="Appointlet Scheduler"
+          width="100%"
+          height="600px"
+          src="https://appt.link/meet-with-rashidul-islam"
+          frameBorder="0"
+        ></iframe>
+      </div>
+    </>
   );
 };
 
-export default MyComponent;
+export default Book;
