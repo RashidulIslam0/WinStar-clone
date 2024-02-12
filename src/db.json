@@ -39,7 +39,8 @@
         {
             "id":4,
             "image":"https://winstarit.com/wp-content/uploads/2022/06/ui-design.png",
-            "dis":"UI/UX Design"
+            "dis":"UI/UX Design",
+            "link":"/graphic-ui-ux-design"
 
         }
     ],

@@ -1,0 +1,80 @@
+.gp-right h1 {
+  color: #343a40;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.gp-right div {
+  display: flex;
+  align-items: center;
+  /* margin-top: 1rem; */
+}
+
+.gp-right div img {
+  width: 50px;
+  /* margin-right: 1rem; */
+}
+
+.gp-right div p {
+  padding-top: 10px;
+  color: #222;
+  font-size: 18px;
+}
+
+.gp-right {
+  text-align: center;
+  padding: 20px;
+}
+
+.gp-right img {
+  max-height: 70%;
+  width: 100%;
+  margin: 5px;
+}
+
+.dev-tops {
+  background-color: #f0f4f8; /* Light blue background color */
+  background-image: url("https://winstarit.com/wp-content/uploads/2020/12/bg.png"); /* Background image */
+  background-position: center center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-size: cover; /* Cover the entire background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Styles for dev-top-left column */
+.gp-left {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.dev-top-left h1 {
+  font-size: 46px; /* Adjust as needed */
+  margin-bottom: 25px; /* Adjust as needed */
+  color: rgb(40, 28, 81); /* Text color */
+  font-weight: 700;
+}
+
+.dev-top-left p {
+  font-size: 16px; /* Adjust as needed */
+  line-height: 1.6; /* Adjust as needed */
+  color: rgb(40, 28, 81); /* Text color */
+  margin-top: 20px;
+}
+.dev-top-right {
+  /* padding: 26px; */
+  /* margin-left: 25px; */
+}
+
+/* Styles for image */
+.gp-left img {
+  max-width: 100%;
+  height: auto;
+  /* padding-left: 20px; */
+}

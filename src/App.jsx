@@ -12,6 +12,7 @@ import Seo from "./pages/SEO/Seo";
 import Content from "./pages/Content/Content";
 import Development from "./pages/development/Development";
 import ChatWidget from "./pages/Chats";
+import UxUi from "./pages/UX/Ux";
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
 
           <Route path="/content-writing" element={<Content />} />
           <Route path="/web-design-developmen" element={<Development />} />
+          <Route path="/graphic-ui-ux-design" element={<UxUi />} />
+
           <Route path="/chats" element={<ChatWidget />} />
         </Routes>
         <Footer />
