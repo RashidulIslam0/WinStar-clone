@@ -1,0 +1,78 @@
+.about {
+  background-color: rgb(233, 253, 247);
+}
+.misson {
+  /* margin: 30px; */
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.misson h1 {
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.misson p {
+  color: #222;
+  font-size: 18px;
+}
+
+.teme {
+  padding: 50px 0; /* Padding around the section */
+  text-align: center; /* Align content in the center */
+}
+
+.tems-head h5 {
+  color: red;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.tems-head h2 {
+  color: rgb(18, 28, 81); /* Color for the second heading */
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px; /* Bottom margin for the second heading */
+}
+
+.tems-head p {
+  color: rgb(18, 28, 81); /* Color for the paragraph */
+  font-size: 24px;
+  /* font-weight: 700; */
+}
+
+.tems-member {
+  padding: 20px; /* Padding around the member section */
+}
+
+.member1 {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.member1 img {
+  width: 180px; /* Set width for the member image */
+  height: 180px; /* Set height for the member image */
+  border-radius: 50%; /* Make the image circular */
+  margin-bottom: 20px; /* Bottom margin for the image */
+}
+
+.member1 h3 {
+  color: rgb(18, 28, 81); /* Color for the member name */
+  font-size: 24px; /* Font size for the member name */
+  /* margin-bottom: 5px; */
+  font-weight: 700; /* Bottom margin for the member name */
+}
+
+.member1 p {
+  color: rgb(18, 28, 81); /* Color for the member position */
+  font-size: 16px; /* Font size for the member position */
+  margin-bottom: 0; /* Remove bottom margin for the member position */
+}
